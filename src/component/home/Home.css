@@ -1,11 +1,9 @@
 .home{
-    /* background: url(../../assets/Home.jpg)no-repeat center center/cover; */
     height: 70vh; 
     background: linear-gradient(rgba(33,33,33,0.522),rgba(33,33,33,0.522)),url('../../assets/Home.jpg');
     background-position: center;
     background-size: cover;
     margin-bottom: 15rem;
-   
 }
 .home .contaiiner{
     display: flex;
@@ -17,13 +15,10 @@
     color: rgb(255, 255, 255);
     font-size: 3rem;
     margin-top: 9rem;
-
-    
 }
 .contaiiner h2{
     color: rgb(255, 255, 255);
     font-size: 3rem;
-    /* margin-top: 1rem; */
 }
 .contaiiner p{
     color: aliceblue;
@@ -44,7 +39,6 @@
     cursor: pointer;
 }
 .contaiiner .btn:hover{
-
     background-color: transparent;
     border: 1px solid orange ;
 }
@@ -57,10 +51,7 @@
     box-shadow: 0 0.5rem 1rem rgb(17 17 17 / 30%);
     padding: 4rem 2rem;
 }
-
-
 .home-form .content {
-
 display: flex;
 align-items: center;
 justify-content: center;
@@ -71,16 +62,12 @@ margin-right: 10px;
 }
 .home-form .content .col{
     margin-right: 10px;
-
 }
-
 .home-form .content .col input{
- 
     width: 100%;
     height: 35px;
     border: none;
     border-radius: 25px;
-    /* border: 1px solid orange ; */
     background: #dddddd; 
     margin-top: .5rem; 
     cursor: pointer;
@@ -94,12 +81,8 @@ margin-right: 10px;
     margin-top: 1.8rem; 
     background-color: rgb(255, 163, 43);
     cursor: pointer;
-
 }
-
 @media screen and (max-width:940px) {
-
-
     .home-form{
         width: 90%;
         background: #ffffff;
@@ -108,31 +91,13 @@ margin-right: 10px;
         border-radius: 1rem;
         box-shadow: 0 0.5rem 1rem rgb(17 17 17 / 30%);
         padding: 4rem 2rem;
-        
     }
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
 @media screen and (max-width:768px) {
     .contaiiner h1{
-       
         font-size: 2rem;
         width: 100%;
         text-align: center;
-        
     }
     .contaiiner p{
        font-size: small;
@@ -149,10 +114,8 @@ margin-right: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
-
     }
     .home-form .content .col input{
- 
         width: 100%;
         height: 35px;
         border: none;
@@ -170,26 +133,16 @@ margin-right: 10px;
         margin-top: 1.8rem; 
         background-color: rgb(255, 163, 43);
         cursor: pointer;
-    
     }
     .home-form .content{
-     
         display:flex;
         flex-direction: column;
-        
-      
-    
 }
-
 }
-
 @media screen and (max-width:500px) {
-
-
     .contaiiner h1{
         color: rgb(255, 255, 255);
         font-size: 1.7rem;
-        
     }
     .home-form{
         width: 90%;
@@ -202,10 +155,8 @@ margin-right: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
-
     }
     .home-form .content .col input{
- 
         width: 100%;
         height: 35px;
         border: none;
@@ -224,7 +175,6 @@ margin-right: 10px;
         background-color: rgb(255, 163, 43);
         cursor: pointer;
         color: #ffffff;
-    
     }
 }
 

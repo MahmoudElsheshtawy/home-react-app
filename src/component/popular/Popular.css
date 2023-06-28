@@ -1,8 +1,6 @@
 .popular{
     padding: 0 10rem;
     margin-bottom: 5rem;
-    /* overflow-x: hidden; */
-  
 }
 .popular .top-p{
 display: flex;
@@ -50,8 +48,6 @@ margin-bottom: 3rem;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
-  
-    
 }
 .main-pupular .card>:nth-child(3){
     font-size: 25px;
@@ -80,14 +76,10 @@ margin-bottom: 3rem;
     font-size: 20px;
     color: rgb(0, 0, 0);
     font-weight: bold;
- 
 }
 .main-pupular .card .foot>span:nth-child(2){
     color: #ff9900;
 }
-
-
-
 .main-pupular .card img{
     width: 250px;
     height: 250px;
@@ -95,9 +87,6 @@ margin-bottom: 3rem;
     border-radius: 20px 20px 0% 0%;
     position: relative;
     cursor: pointer;
-    
-   
-
 }
 
 .main-pupular .card .hover{
@@ -114,17 +103,6 @@ margin-bottom: 3rem;
   overflow: hidden;
   color: #ffffff;
   transform: translateY(-100%);
-
- 
-
-
-
-
-
-
-
-
-
 }
 .main-pupular .card .hover h1{
 margin-bottom:10px ;
@@ -149,49 +127,27 @@ margin-bottom:10px ;
     transform: translateY(0);
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:1050px) {
     .popular .top-p {
      display: flex;
      flex-direction: column;
     }
-
-
 }
 @media screen and (max-width:940px) {
-   
     .popular{
         padding: 0 1rem;
         margin-bottom: 5rem;
-     
-        
-    
     }
-
-
 }
 @media screen and (max-width:768px) {
-
     .main-pupular{
       margin-right: 0;
     }
     .popular{
        padding: 0 1rem;
     }
-
 }
 @media screen and (max-width:595px) {
-
 .main-pupular{
     display: flex;
     flex-direction: column;

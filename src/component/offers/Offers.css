@@ -30,7 +30,6 @@ margin-bottom: 3rem;
     position: relative;
     transition: .5s ease-in-out;
 }
-
 .offer .container .box .off{
     position: absolute;
     top: 20px;
@@ -41,26 +40,21 @@ margin-bottom: 3rem;
     padding: 5px;
     border-radius: 20px;
     font-weight: bold;
-    
 }
 .offer .container .box:hover{
     cursor: pointer;
-    /* transform:translateY(-7px) ; */
     transform: scale(1.1);
 }
 .offer .container .box .one{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .offer .container .box .one span{
     font-size: 20px;
     font-weight: bold;
     margin-left: 15px;
     font-family:Georgia, 'Times New Roman', Times, serifserif;
-
-
 }
 .offer .container .box .one button{
     background-color: #eeeeee;
@@ -69,15 +63,12 @@ margin-bottom: 3rem;
     font-size: .8rem;
     border-radius: 20px;
     margin-right: 10px;
-
-   
 }
 .offer .container .box .tow{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 17px;
-    
 }
 .offer .container .box .tow .icon{
     background-color: rgb(236, 236, 236);
@@ -116,9 +107,8 @@ margin-bottom: 3rem;
     margin-top: 1rem;
     font-size: 14px;
     font-weight: bold;
-     cursor: pointer;
-     position: relative;
-    
+    cursor: pointer;
+    position: relative;
  }
  .offer .container .box .btn .icon{
  position: absolute;
@@ -136,27 +126,19 @@ margin-bottom: 3rem;
     margin-top: 5px;
     mix-blend-mode: multiply;
 }
-
+/* @media */
 @media screen and (max-width:1050px) {
     .popular .top-p {
      display: flex;
      flex-direction: column;
     }
-
-
 }
-
-/* @media */
 @media screen and (max-width:940px) {
     .offer .container{
         display: grid;
         grid-template-columns: repeat(auto-fit , minmax(25rem,1fr));
-        gap: 1.5rem;
-        
+        gap: 1.5rem;  
     }
-
-
-
 }
 @media screen and (max-width:780px) {
     .offer .container .box{
@@ -168,14 +150,12 @@ margin-bottom: 3rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         position: relative;
         font-size: 80%;
-       
     }
     .offer .container {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
     }
     .offer{
         padding: 0 1rem;
@@ -187,13 +167,10 @@ margin-bottom: 3rem;
         border-radius: 20px;
         margin-top: 5px;
     }
-
 }
 @media screen and (max-width:595px) {
-
     .offer{
-        padding: 0;
-        
+        padding: 0; 
     }
 }
 @media screen and (max-width:310px) {
@@ -206,7 +183,6 @@ margin-bottom: 3rem;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         position: relative;
         font-size: 60%;
-       
     }
     .box img{
         width: 250px;
@@ -215,5 +191,4 @@ margin-bottom: 3rem;
         border-radius: 20px;
         margin-top: 5px;
     }
-   
 }
