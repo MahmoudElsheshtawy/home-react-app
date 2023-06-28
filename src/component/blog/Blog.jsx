@@ -9,9 +9,13 @@ import blogfour from '../../assets/blogfour.jpg'
 const Blog = () => {
   return (
     <div className="blog">
+
         <h1 data-aos="fade-down">Our best blogs</h1>
+
         <p data-aos="fade-down">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, voluptas.</p>
+
         <div className="container">
+
             <div data-aos="fade-down" className="right-b">
 
               <div className="card">
@@ -24,6 +28,7 @@ const Blog = () => {
                     <button className='btnn'>Read More <BsArrowRight/> </button>
                 </div>
               </div>
+
               <div className="card">
                 <img src={blogtow} alt="" />
                 <div className="content">
@@ -45,6 +50,7 @@ const Blog = () => {
                     <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque minus laboriosam blanditiis doloremque numquam quidem.</span>
                     <button className='btnn'>Read More <BsArrowRight/> </button>
                 </div>
+
               </div>
               <div className="card">
               <div className="img">
@@ -63,5 +69,22 @@ const Blog = () => {
     </div>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default Blog

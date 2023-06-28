@@ -35,7 +35,6 @@ margin-bottom: 3rem;
 .popular .top-p .rigth .one:hover{
     background-color: #aaa;
 }
-/* main-pupular */
 .main-pupular {
     display: grid;
     grid-template-columns: repeat(auto-fit ,minmax(17rem, 1fr));
@@ -88,7 +87,6 @@ margin-bottom: 3rem;
     position: relative;
     cursor: pointer;
 }
-
 .main-pupular .card .hover{
   position: absolute;
   display: flex;
@@ -121,7 +119,6 @@ margin-bottom:10px ;
     position: absolute;
     bottom: 20px;
     right: 20px;
-    
 }
 .main-pupular .card:hover .hover{
     transform: translateY(0);

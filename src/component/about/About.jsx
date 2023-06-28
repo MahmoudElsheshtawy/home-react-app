@@ -3,7 +3,12 @@ import './About.css'
 import Video from '../../assets/Video.mp4'
 const About = () => {
   return (
+
+
+
+
     <div className="about">
+
         <div className="connier">
 
             <div data-aos="fade-down"className="left">
@@ -20,13 +25,32 @@ const About = () => {
             <div data-aos="fade-up" className="right">
 
                 <video autoPlay loop muted id='video'>
-                  
+
                     <source src={Video} type='Video/mp4'/>
+                    
                 </video>
             </div>
         </div>
     </div>
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default About

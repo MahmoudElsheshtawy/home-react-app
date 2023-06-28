@@ -10,16 +10,18 @@ const Hinking = () => {
         <h1>Why Hinking?</h1>
 
         <div className="cards">
-          
+
             <div className="cardss">
 
                        <div className="card">
+
 
                         <img src={clienttow} alt="" />
                         <h2>110+ Mountains</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga  
                             modi earum ab itaque?earum ab itaque? Suscipit  consequuntur.</p>
                        </div>
+
 
                        <div className="card">
                         <img src={clientone} alt="" />
@@ -28,6 +30,7 @@ const Hinking = () => {
                             modi earum ab itaque?earum ab itaque? Suscipit consequuntur.</p>
                        </div>
 
+
                         <div className="card">
                             <img src={clientthree} alt="" />
                             <h2>110+ Mountains</h2>
@@ -35,13 +38,17 @@ const Hinking = () => {
                               
                                 modi earum ab itaque?earum ab itaque? Suscipit consequuntur.</p>
                         </div>
+
+
               </div>
 
 
 
 
         </div>
+
     </div>
+    
   )
 }
 

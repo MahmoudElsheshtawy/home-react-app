@@ -8,22 +8,30 @@ import popularfor from '../../assets/popularfor.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 const Popular = () => {
+
   useEffect(()=>{
     Aos.init({duration:1500})
    })
+
   return (
+
   <div className='popular'>
+
     <div className="top-p">   
+
          <div data-aos="fade-up" className="left">
+
               <h1>Popular Destinations</h1>
               <p>form historical cistel to noture senstevty ,come see the beast of the world</p> 
         </div>
+
       <div data-aos="fade-" className='rigth'>
       <IoMdArrowRoundBack className='icons one'/>
       <IoMdArrowRoundForward className='icons'/>
       </div>
 
     </div>
+
  <div data-aos="fade-up"  className="main-pupular">
      
       <div className="card">
@@ -46,6 +54,7 @@ const Popular = () => {
 
       </div>
 
+
       <div className="card">
 
             <img src={populartow} alt="" />
@@ -64,6 +73,8 @@ const Popular = () => {
 
       </div>
 
+
+
           <div className="card">
 
                 <img src={popularth}alt="" />
@@ -81,7 +92,10 @@ const Popular = () => {
 
           </div>
 
+
+
       <div className="card">
+
 
                 <img src={popularfor} alt="" />
                 <div className="hover">
@@ -118,5 +132,20 @@ const Popular = () => {
 
   )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default Popular

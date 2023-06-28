@@ -25,16 +25,23 @@ const Home = () => {
 
   </div>
   <div data-aos="fade-down" className="home-form">
+
      <div className="content">
+
             <div className='col'>
+
                <span>Location</span>
+
                <input type="location" placeholder='Dream Description' />
              </div>
+
              <div className='col'>
+
                <span>Price Range</span>
                <input type="location" placeholder='$140-$500' />
              </div>
              <div className='col'>
+              
                <span>Distanse</span>
                <input type="location" placeholder='n/mother' />
              </div>

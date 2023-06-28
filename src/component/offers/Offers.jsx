@@ -10,18 +10,26 @@ import offerthree from '../../assets/offerthree.jpg'
 const Offers = () => {
   return (
     <div data-aos="fade-down" className='offer'>
+
          <h1>Spcial Offer</h1>
         <p>dolor sit amet consectetur adipisicing elit. Rerum amet pormar Rerum amet pormar. </p>
+
       <div className="container">
        
         {/* one */}
         <div data-aos="fade-down" className="box">
+
                 <img src={offerone} alt="" />
+
                 <button className='off'>30% Off</button>
+
                 <div className='one'>
                     <span>$7,425</span>
                     <button>for Rent</button>
                 </div>
+
+
+
                 <div className='tow'>
                     <div className="icon">
                         <AiFillCar/>
@@ -37,6 +45,10 @@ const Offers = () => {
                     </div>
 
                 </div>
+
+
+
+
                 <div className="three">
                     <TbBus/>
                     <span>shailte</span>
@@ -60,6 +72,9 @@ const Offers = () => {
                     <span>$7,425</span>
                     <button>for Rent</button>
                 </div>
+
+
+
                 <div className='tow'>
                     <div className="icon">
                         <AiFillCar/>
@@ -75,6 +90,10 @@ const Offers = () => {
                     </div>
 
                 </div>
+
+
+
+
                 <div className="three">
                     <TbBus/>
                     <span>shailte</span>
@@ -91,6 +110,7 @@ const Offers = () => {
 
         </div>
         {/* three */}
+
         <div data-aos="fade-down" className="box">
                 <img src={offerthree} alt="" />
                 <button className='off'>30% Off</button>
@@ -98,6 +118,9 @@ const Offers = () => {
                     <span>$7,425</span>
                     <button>for Rent</button>
                 </div>
+
+
+
                 <div className='tow'>
                     <div className="icon">
                         <AiFillCar/>
@@ -113,6 +136,10 @@ const Offers = () => {
                     </div>
 
                 </div>
+
+
+
+
                 <div className="three">
                     <TbBus/>
                     <span>shailte</span>
@@ -155,5 +182,10 @@ const Offers = () => {
     </div>
   )
 }
+
+
+
+
+
 
 export default Offers
