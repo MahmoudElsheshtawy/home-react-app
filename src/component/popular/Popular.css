@@ -1,0 +1,201 @@
+.popular{
+    padding: 0 10rem;
+    margin-bottom: 5rem;
+    /* overflow-x: hidden; */
+  
+}
+.popular .top-p{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 3rem;
+}
+.popular .top-p .left h1{
+    font-size: 3rem;
+}
+.popular .top-p .left  p{
+    font-size: 18px;
+}
+.popular .top-p .rigth{
+    margin-right: 3rem;
+}
+.popular .top-p .rigth .icons{
+    font-size: 40px;
+    background-color: #aaa;
+    padding: 5px;
+    border-radius: 50%;
+    color: aliceblue;
+    cursor: pointer;
+}
+.popular .top-p .rigth .icons:hover{
+    background-color: #383838;
+}
+.popular .top-p .rigth .one{
+    margin-right: 5px;
+    background-color: #383838;
+}
+.popular .top-p .rigth .one:hover{
+    background-color: #aaa;
+}
+/* main-pupular */
+.main-pupular {
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(17rem, 1fr));
+    gap: 1.5rem;
+}
+.main-pupular .card{
+    background: #ffffff;
+    width: 250px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow: hidden;
+  
+    
+}
+.main-pupular .card>:nth-child(3){
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+   align-items: center;
+}
+.main-pupular .card>:nth-child(4){
+    color: #ff9900;
+    width: 40px;
+    display: flex;
+    border: 2px solid orange;
+    font-weight: bold;
+    position: absolute;
+    top: 271px;
+    right: 160px;
+    border-radius: 30px;
+}
+.main-pupular .card .foot{
+    padding: 2px;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+ 
+}
+.main-pupular .card .foot>span:nth-child(2){
+    color: #ff9900;
+}
+
+
+
+.main-pupular .card img{
+    width: 250px;
+    height: 250px;
+    object-fit:cover center;
+    border-radius: 20px 20px 0% 0%;
+    position: relative;
+    cursor: pointer;
+    
+   
+
+}
+
+.main-pupular .card .hover{
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.846),rgba(0,0,0,0.759));
+  flex-direction: column;
+  bottom: 90px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #ffffff;
+  transform: translateY(-100%);
+
+ 
+
+
+
+
+
+
+
+
+
+}
+.main-pupular .card .hover h1{
+margin-bottom:10px ;
+}
+.main-pupular .card .hover p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #f1b91e;
+}
+.main-pupular .card .hover .arow{
+    background-color: #ff9900;
+    font-size: 35px;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    
+}
+.main-pupular .card:hover .hover{
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1050px) {
+    .popular .top-p {
+     display: flex;
+     flex-direction: column;
+    }
+
+
+}
+@media screen and (max-width:940px) {
+   
+    .popular{
+        padding: 0 1rem;
+        margin-bottom: 5rem;
+     
+        
+    
+    }
+
+
+}
+@media screen and (max-width:768px) {
+
+    .main-pupular{
+      margin-right: 0;
+    }
+    .popular{
+       padding: 0 1rem;
+    }
+
+}
+@media screen and (max-width:595px) {
+
+.main-pupular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}

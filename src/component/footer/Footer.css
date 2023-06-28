@@ -1,0 +1,96 @@
+.footer{
+    background: #dddddd;
+    margin-top: 4rem;
+    height: fit-content;
+    box-sizing: border-box;
+    
+    
+}
+.footer .contanier{
+    padding:2rem 10rem;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.footer .contanier .icon{
+    color: orange;
+}
+.footer .contanier .col h1{
+    font-size: 30px;
+    margin-bottom: 5pxpx;
+}
+.footer .contanier .col .socail{
+    font-size: 30px;
+    color: #FFF;
+    
+}
+.footer .socail .socail-icon{
+ background-color: rgb(233, 145, 31);
+ margin-right: 10px;
+ padding: 4px;
+ border-radius: 20px;
+ cursor: pointer;
+}
+
+.footer .contanier .col p{
+    font-size: 17px;
+    margin: 5px;
+    font-weight: 600;
+}
+.footer .contanier .col p:hover{
+    color: orange;
+    cursor: pointer;
+    padding-left:10px;
+}
+
+.footer .contanier .col .fott{
+color: orange;
+margin-right: 5px;
+font-size: 20px;
+position: relative;
+top: 3px;
+
+
+}
+
+@media screen and (max-width:1173px) {
+    .footer .contanier{
+        padding:2rem 1rem;
+        display: flex;
+        justify-content:space-around;
+        
+    }
+
+    
+}
+@media screen and (max-width:900px) {
+    .footer .contanier{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(17rem ,2fr));
+        gap: 1.5rem;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:350px) {
+    .footer .contanier .col p {
+        font-size: 1rem;
+      
+        
+    }
+    .footer .contanier .col{ 
+        text-align: center;
+        font-size: 90%;
+      
+        
+    }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,201 @@
+.navbar{
+    /* padding: 0 4rem; */
+    position: relative;
+   
+    
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: transparent; */
+    /* background-color: #c2c2c2; */
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 1rem;
+
+    
+} 
+
+.activeContainer{
+    background-color: #c0c0c0;
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+  
+
+}
+.navbar .logo .icon{
+    color: orange;
+    cursor: pointer;
+    margin-right: 2px;
+    
+}
+.navbar .container .nav-menu{
+    display: flex;
+    align-items: center;
+   
+    
+   
+    
+    
+    
+}
+.navbar .container .nav-menu ul {
+    display: flex;
+    font-size: 17px;
+    cursor: pointer;
+    /* margin-right: 50px; */
+   
+   
+}
+.navbar .container .nav-menu ul li{
+    list-style-type: none;
+    margin: 10px;
+    color: aliceblue;
+    transition: .4s ease-in-out;
+   
+    
+}
+.navbar .container .nav-menu ul li:hover{
+    color: orange;
+}
+.navbar .container .nav-menu .btn{
+    padding-right: 5rem;
+}
+.btn button{
+    background-color: orange;
+    padding: 5px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    margin: 5px;
+    width: 70px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+     
+
+}
+.btn .btn-1{
+    background-color: transparent;
+}
+.btn .btn-1:hover{
+background: orange;
+color: rgb(255, 255, 255);
+}
+
+.hamborger{
+    display: none;
+    color: #fff;
+}
+.close{
+    color: orange;
+    font-size: 25px;
+}
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+       padding: 0;
+       
+    }
+   .navbar .container{
+     
+    }
+  .container .nav-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        background-color:#aaa;
+        color: rgb(63, 63, 63);
+        padding:0;
+        left:-100%;
+        width: 100%;
+        height: max-content;
+        border-radius: 20px;
+        font-weight: bold;
+        transition: .4s ease-in-out;
+        
+    }
+    .nav-menu ul  {
+        flex-direction: column;
+        align-items: center;
+        z-index: 100;
+        margin-top: 30px;
+       
+    }
+    .nav-menu .btn{
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-bottom: 20px;
+   
+        
+    }
+    .nav-menu .btn button{
+       
+        margin-bottom: 10px;
+        width: 200px;  
+        
+        
+    }
+    .hamborger{
+        display: block;
+        padding: 1rem;
+        font-size: 22px;
+        cursor: pointer;
+        z-index: 1100; 
+        
+        /* color: aliceblue; */
+    }
+    .logo{
+        padding: 1rem;
+        cursor: pointer;
+        
+        
+    }
+ .navbar .container  .active{
+       transition: .4s ease-in-out;
+        left: 0;
+       
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

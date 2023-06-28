@@ -1,0 +1,219 @@
+.offer{
+    padding: 5rem 15rem;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    box-sizing: border-box;
+}
+.offer .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(20rem,1fr));
+    gap: 1.5rem;
+    position: relative;
+}
+.offer h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px;
+}
+.offer p{
+font-size: 16px;
+text-align: center;
+margin-bottom: 3rem;
+}
+.offer .container .box{
+    background: #ffffff;
+    width: 360px;
+    height: 500px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+
+.offer .container .box .off{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    background-color: orange;
+    color: aliceblue;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.offer .container .box:hover{
+    cursor: pointer;
+    /* transform:translateY(-7px) ; */
+    transform: scale(1.1);
+}
+.offer .container .box .one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.offer .container .box .one span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serifserif;
+
+
+}
+.offer .container .box .one button{
+    background-color: #eeeeee;
+    border: 1px solid orange;
+    padding: 5px .9rem;
+    font-size: .8rem;
+    border-radius: 20px;
+    margin-right: 10px;
+
+   
+}
+.offer .container .box .tow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+    
+}
+.offer .container .box .tow .icon{
+    background-color: rgb(236, 236, 236);
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 5px 1rem;
+    gap: .2rem;
+}
+ .offer .container .box .three{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 1rem;
+    gap: .2rem;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 17px;
+ }
+ .offer .container .box .four{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 17px;
+    margin-top: 10px;
+   line-height: 1;
+ }
+ .offer .container .box .btn{
+    background-color: orange;
+    border: none;
+    color: #ffffff;
+    padding: 10px 4rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+     cursor: pointer;
+     position: relative;
+    
+ }
+ .offer .container .box .btn .icon{
+ position: absolute;
+ top: 11px;
+ }
+ .offer .container .box .btn:hover .icon{
+    margin-left: 10px;
+    color: black;
+ }
+.box img{
+    width: 340px;
+    height: 250px;
+    object-fit: cover cover/center;
+    border-radius: 20px;
+    margin-top: 5px;
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width:1050px) {
+    .popular .top-p {
+     display: flex;
+     flex-direction: column;
+    }
+
+
+}
+
+/* @media */
+@media screen and (max-width:940px) {
+    .offer .container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit , minmax(25rem,1fr));
+        gap: 1.5rem;
+        
+    }
+
+
+
+}
+@media screen and (max-width:780px) {
+    .offer .container .box{
+        background: #ffffff;
+        width: 300px;
+        height: 500px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+        font-size: 80%;
+       
+    }
+    .offer .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .offer{
+        padding: 0 1rem;
+    }
+    .box img{
+        width: 290px;
+        height: 290px;
+        object-fit: cover cover/center;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+
+}
+@media screen and (max-width:595px) {
+
+    .offer{
+        padding: 0;
+        
+    }
+}
+@media screen and (max-width:310px) {
+    .offer .container .box{
+        background: #ffffff;
+        width: 260px;
+        height: 500px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+        font-size: 60%;
+       
+    }
+    .box img{
+        width: 250px;
+        height: 270px;
+        object-fit: cover cover/center;
+        border-radius: 20px;
+        margin-top: 5px;
+    }
+   
+}

@@ -1,0 +1,103 @@
+.blog{
+    padding: 9rem 9rem;
+}
+.blog h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.blog p{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.blog .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.blog .container .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.blog .container .right-b{
+    flex: 1 1;
+}
+.blog .container .left-b{
+    flex: 1 1;
+}
+.blog .container .card .content{
+    width: 300px;
+}
+.blog .container .card .content h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+
+.blog .container .card .content .btnn{
+    background: #fff;
+    border: none;
+    border: 2px solid orange;
+    padding: .4rem 2rem;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blog .container  img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+   
+
+} 
+@media screen and (max-width:1175px) {
+   
+    .blog .container .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px) {
+    .blog .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    
+    }
+  
+}
+@media screen and (max-width:450px) {
+    .blog{
+        padding: 0 2rem;
+    }
+    .blog h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .blog .container .card .content{
+        width: 250px;
+    }
+  
+}
+
+
+
+
+
+
+
+

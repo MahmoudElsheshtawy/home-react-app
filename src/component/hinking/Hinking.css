@@ -1,0 +1,106 @@
+
+.hinking{
+    padding: 0 7rem;
+    margin-bottom: 7rem;
+}
+.hinking h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+.hinking .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+}
+.hinking .cards .cardss{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+    gap: 1rem;
+
+
+}
+.hinking .cards .cardss .card{
+    text-align: center;
+   
+}
+
+
+.hinking .cards .cardss .card img{
+  width: 200px;
+
+
+}
+.hinking .cards .cardss .card h2{
+
+    font-size: 25px;
+    margin: 10px;
+}
+.hinking .cards .cardss .card p{
+    font-size: 20px;
+    color: rgb(116, 116, 116);
+   
+}
+
+@media screen and (max-width:450px) {
+    .hinking h1{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    
+    } 
+    .hinking{
+        padding: 0 2rem;
+        margin-bottom: 3rem;
+    }
+    .hinking .cards .cardss .card h2{
+
+        font-size: 23px;
+        margin: 10px;
+    }
+    .hinking .cards .cardss .card p{
+        font-size: 15px;
+        width: auto;
+        color: rgb(116, 116, 116);
+       
+    }
+    .hinking .cards .cardss .card{
+      
+       width: 100%;
+    }
+    
+}
+@media screen and (max-width:450px) {
+
+
+    .hinking .cards .cardss{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+        gap: 1rem;
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+.about{
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+   
+}
+.about .contanier {
+    background:  url("../../assets/bavkk.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about .contanier .left{
+    display: flex;
+    flex-direction: column;
+    flex: 1  1;
+    margin-bottom: 1rem;
+}
+.about .contanier .left h2{
+   color: aliceblue;
+   font-size: 2rem;
+   margin-left: 2rem;
+}
+.about .contanier .left p{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 2rem;
+ }
+.about .contanier .right{
+ margin: 3rem;
+}
+#video{
+    width: 100%;
+    height:35vh;
+}
+
+
+@media screen and (max-width:1000px) {
+    .about .contanier {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+ 
+}
+@media screen and (max-width:768px) {
+#video{
+    width: 100%;
+    margin: 0;
+}
+.about .contanier .right{
+    margin: 0;
+   }
+
+}
+
+@media screen and (max-width:450px){
+    .about{
+        padding: 0;
+        margin-bottom: 2rem;
+       
+    }
+    .about .contanier .right{
+        margin: 0;
+       }
+       
+       .about .contanier .left h2{
+        color: aliceblue;
+        font-size: 180%;
+        margin-left: 1rem;
+        margin-bottom: 10px;
+     }
+     .about .contanier .left p{
+        color: aliceblue;
+        font-size: 1rem;
+        margin-left: 1rem;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
