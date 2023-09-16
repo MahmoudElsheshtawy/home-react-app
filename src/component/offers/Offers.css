@@ -22,8 +22,9 @@ margin-bottom: 3rem;
 }
 .offer .container .box{
     background: #ffffff;
-    width: 360px;
+    width: 320px;
     height: 500px;
+    overflow: hidden;
     text-align: center;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -42,8 +43,8 @@ margin-bottom: 3rem;
     font-weight: bold;
 }
 .offer .container .box:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+    /* cursor: pointer;
+    transform: scale(1.1); */
 }
 .offer .container .box .one{
     display: flex;
@@ -115,16 +116,20 @@ margin-bottom: 3rem;
  top: 11px;
  }
  .offer .container .box .btn:hover .icon{
-    margin-left: 10px;
+    margin-left: 20px;
     color: black;
  }
 .box img{
-    width: 340px;
+    width: 300px;
     height: 250px;
-    object-fit: cover cover/center;
+    object-fit: cover /cover center;
     border-radius: 20px;
     margin-top: 5px;
-    mix-blend-mode: multiply;
+    margin-bottom: 10px;
+    /* mix-blend-mode: multiply; */
+}
+.box img:hover{
+    transform: scale(1.1);
 }
 /* @media */
 @media screen and (max-width:1050px) {

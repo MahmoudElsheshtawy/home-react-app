@@ -1,40 +1,45 @@
 .about{
     padding: 0 5rem;
     margin-bottom: 2rem;
+    display: flex;
 }
-.about .contanier {
+.about .connier {
     background:  url("../../assets/bavkk.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
+   
 }
-.about .contanier .left{
+.about .connier .left{
     display: flex;
     flex-direction: column;
     flex: 1  1;
     margin-bottom: 1rem;
 }
-.about .contanier .left h2{
-   color: aliceblue;
+.about .connier .left h2{
+    color: aliceblue;
+
    font-size: 2rem;
    margin-left: 2rem;
 }
-.about .contanier .left p{
-    color: aliceblue;
+.about .connier .left p{
+          color: aliceblue;
+
     font-size: 1rem;
     margin-left: 2rem;
  }
-.about .contanier .right{
+.about .connier .right{
  margin: 3rem;
+ flex: 1  1;
 }
 #video{
     width: 100%;
     height:35vh;
 }
 @media screen and (max-width:1000px) {
-    .about .contanier {
+    .about .connier {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -46,7 +51,7 @@
     width: 100%;
     margin: 0;
 }
-.about .contanier .right{
+.about .connier .right{
     margin: 0;
    }
 }
@@ -55,16 +60,16 @@
         padding: 0;
         margin-bottom: 2rem;
     }
-    .about .contanier .right{
+    .about .connier .right{
         margin: 0;
        }
-       .about .contanier .left h2{
+       .about .connier .left h2{
         color: aliceblue;
         font-size: 180%;
         margin-left: 1rem;
         margin-bottom: 10px;
      }
-     .about .contanier .left p{
+     .about .connier .left p{
         color: aliceblue;
         font-size: 1rem;
         margin-left: 1rem;

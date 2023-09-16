@@ -29,6 +29,9 @@
 .blog .container .card .content{
     width: 300px;
 }
+.blog .container .card {
+    margin-bottom: 20px;
+}
 .blog .container .card .content h2{
     display: flex;
     align-items: center;

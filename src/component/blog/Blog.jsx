@@ -10,13 +10,13 @@ const Blog = () => {
   return (
     <div className="blog">
 
-        <h1 data-aos="fade-down">Our best blogs</h1>
+        <h1>Our best blogs</h1>
 
-        <p data-aos="fade-down">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, voluptas.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae, voluptas.</p>
 
         <div className="container">
 
-            <div data-aos="fade-down" className="right-b">
+            <div className="right-b">
 
               <div className="card">
                 <div className="img">
@@ -40,7 +40,7 @@ const Blog = () => {
 
 
             </div>
-            <div data-aos="fade-down" className="left-b">
+            <div className="left-b">
             <div className="card">
             <div className="img">
                 <img src={blogtree}alt="" />

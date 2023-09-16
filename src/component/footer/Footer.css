@@ -2,19 +2,19 @@
     background: #dddddd;
     margin-top: 4rem;
     height: fit-content;
-    box-sizing: border-box;
 }
 .footer .contanier{
-    padding:2rem 10rem;
-    display: flex;
-    justify-content:space-around; 
+    padding:1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,minmax(20rem, 1fr));
+    gap: 1.5rem;
 }
 .footer .contanier .icon{
     color: orange;
 }
 .footer .contanier .col h1{
     font-size: 30px;
-    margin-bottom: 5pxpx;
+    margin-bottom: 5px;
 }
 .footer .contanier .col .socail{
     font-size: 30px;
@@ -42,13 +42,15 @@ color: orange;
 margin-right: 5px;
 font-size: 20px;
 position: relative;
+
 top: 3px;
 }
 @media screen and (max-width:1173px) {
     .footer .contanier{
         padding:2rem 1rem;
         display: flex;
-        justify-content:space-around; }
+        justify-content:space-around; 
+    }
 }
 @media screen and (max-width:900px) {
     .footer .contanier{

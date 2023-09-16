@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className='footer'>
       
-        <div data-aos="fade-down" className="contanier">
+        <div className="contanier">
 
         <div className="col">
 

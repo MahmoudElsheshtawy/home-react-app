@@ -9,7 +9,7 @@ import offerotow from '../../assets/offertow.jpg'
 import offerthree from '../../assets/offerthree.jpg'
 const Offers = () => {
   return (
-    <div data-aos="fade-down" className='offer'>
+    <div  className='offer'>
 
          <h1>Spcial Offer</h1>
         <p>dolor sit amet consectetur adipisicing elit. Rerum amet pormar Rerum amet pormar. </p>
@@ -17,7 +17,7 @@ const Offers = () => {
       <div className="container">
        
         {/* one */}
-        <div data-aos="fade-down" className="box">
+        <div  className="box">
 
                 <img src={offerone} alt="" />
 
@@ -111,7 +111,7 @@ const Offers = () => {
         </div>
         {/* three */}
 
-        <div data-aos="fade-down" className="box">
+        <div className="box">
                 <img src={offerthree} alt="" />
                 <button className='off'>30% Off</button>
                 <div className='one'>

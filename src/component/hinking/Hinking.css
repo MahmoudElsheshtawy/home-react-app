@@ -1,12 +1,12 @@
 
 .hinking{
-    padding: 0 7rem;
-    margin-bottom: 7rem;
+    padding: 3.5rem 7rem;
+    margin-bottom:10rem;
 }
 .hinking h1{
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 3rem;
+   
 }
 .hinking .cards{
     display: flex;

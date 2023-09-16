@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="connier">
 
-            <div data-aos="fade-down"className="left">
+            <div className="left">
 
               <h2>Wonderfull House<br/>experience nin three!</h2>
 
@@ -22,7 +22,7 @@ const About = () => {
                  wingrteu coptjjfs jyiiop countiry jyiiop countiry
               </p>
             </div>
-            <div data-aos="fade-up" className="right">
+            <div className="right">
 
                 <video autoPlay loop muted id='video'>
 
